@@ -1,0 +1,28 @@
+# Composer dependencies
+/vendor/
+composer.phar
+
+.vscode
+
+# Environment configuration
+.env
+.env.local
+.env.*.local
+
+# Database files
+*.mysql
+*.sql
+*.db
+
+# User uploaded content (if applicable)
+/uploads/
+/src/uploads/
+
+.env
+
+
+
+#
+
+# Configuration files with sensitive information
+config.php
